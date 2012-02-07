@@ -1,0 +1,44 @@
+/**
+ * Copyright 1998-2010 Epic Games, Inc. All Rights Reserved.
+ */
+ 
+`if(`isdefined(INCLUDE_UT_STATS))
+	/** Used so that gamespecific ones can start here */
+	//const GAMEEVENT_GAME_SPECIFIC =				1000; //from GameplayEvents
+
+	/** Kill specific information */
+	const GAMEEVENT_KILL_SPECIFIC =					1100;
+
+	/** Gameplay specific information */
+	const GAMEEVENT_GAMEPLAY_SPECIFIC =				1200;
+	const GAMEEVENT_PLAYER_ENTERED_VEHICLE =		1201;
+	const GAMEEVENT_PLAYER_EXITED_VEHICLE =			1202;
+	const GAMEEVENT_WEAPON_PICKUP =					1203;
+
+	/** Gametype specific */
+	const GAMEEVENT_GAMETYPE_SPECIFIC =				1400;
+	const GAMEEVENT_PLAYER_SCORE_UPDATE	=			1401;
+
+	/** Summary */
+	const GAMEEVENT_GAME_SUMMARY =					1500;
+`endif
+
+// Global gameplay stat defines
+
+// Change this or predefine it to your class type
+`if(`notdefined(StatsClass))
+	`define StatsClass class'UTGameplayEventsWriter'
+`endif
+
+`if(`isdefined(GAMEINFO))
+	`define StatsContext		UTGameplayEventsWriter(GameplayEventsWriter)
+	`define ValidStatsContext	GameplayEventsWriter != None && GameplayEventsWriter.IsSessionInProgress()
+`else
+	`define StatsContext		UTGameplayEventsWriter(UTGame(WorldInfo.Game).GameplayEventsWriter)
+	`define ValidStatsContext	WorldInfo.Game != None && UTGame(WorldInfo.Game).GameplayEventsWriter != None && UTGame(WorldInfo.Game).GameplayEventsWriter.IsSessionInProgress()
+`endif
+
+// Include this last to get the benefits of the above defines
+`include(Engine\Classes\GameStats.uci);
+
+

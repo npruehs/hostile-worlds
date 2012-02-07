@@ -1,0 +1,29 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <UccPath>..\..\Binaries\Win32\UDK.exe</UccPath>
+    <UccUserPath>
+    </UccUserPath>
+    <ReferenceSourcePath>
+    </ReferenceSourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <StartProgram>F:\Files\Marcel\Programming\Workspaces\UDK\UDK-2010-08\Binaries\Win32\UDK.exe</StartProgram>
+    <CmdArgs>
+    </CmdArgs>
+    <LoadMapAtStartup>True</LoadMapAtStartup>
+    <StartupMap>HW-Prototype</StartupMap>
+    <LoadGameType>True</LoadGameType>
+    <UserGameType>HostileWorlds.HWGame?team=1</UserGameType>
+    <NoSound>False</NoSound>
+    <NoStartupMovies>True</NoStartupMovies>
+    <UseUnpublished>True</UseUnpublished>
+    <ForceWindowedMode>True</ForceWindowedMode>
+    <WindowWidth>800</WindowWidth>
+    <WindowHeight>600</WindowHeight>
+    <ShowLogWindow>True</ShowLogWindow>
+    <LogWindowX>0</LogWindowX>
+    <LogWindowY>0</LogWindowY>
+    <LogToFile>True</LogToFile>
+    <LogFile>..\..\UDKGame\Logs\Launch.log</LogFile>
+  </PropertyGroup>
+</Project>
