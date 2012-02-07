@@ -1,0 +1,228 @@
+[TitleScreen]
+PressStart=Press [START]
+PressAnyKey=Press Any Key
+Copyright=Copyright 1998-2010 Epic Games, Inc. All Rights Reserved.
+
+[Generic]
+None=None
+Disabled=Disabled
+OK=<StringAliasMap:Accept>OK
+Cancel=<StringAliasMap:Cancel>CANCEL
+Refreshing=Refreshing...
+Loading=Loading...
+Searching=Searching...
+LoggingIn=Logging In...
+LoggingOut=Logging Out...
+CreatingProfile=Creating Profile...
+NotLoggedIn=(Not Signed-In)
+OfflineProfile=(Offline)
+Profile1=Profile 1:
+Profile2=Profile 2:
+Profile=Profile:
+Fire=FIRE
+On=On
+Buy=Buy Now!
+Exit=Exit
+
+[ButtonCallouts]
+Keyboard=<StringAliasMap:Conditional2>KEYBOARD
+
+[Terms]
+Controller_PC=Gamepad
+Controller_PS3=Controller
+Controller_360=Xbox 360 Controller
+GamerCard_360=GAMER CARD
+GamerCard_PS3=PLAYER CARD
+GamerCard_PC=PLAYER CARD
+
+[ButtonFont]
+Xenon_A=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_B=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>B<Fonts:/><Color:/>
+Xenon_X=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>X<Fonts:/><Color:/>
+Xenon_Y=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>Y<Fonts:/><Color:/>
+Xenon_LeftTrigger=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>w<Fonts:/><Color:/>
+Xenon_RightTrigger=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>x<Fonts:/><Color:/>
+Xenon_LeftBumper=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>y<Fonts:/><Color:/>
+Xenon_RightBumper=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>z<Fonts:/><Color:/>
+Xenon_Start=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>><Fonts:/><Color:/>
+Xenon_Back=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18><<Fonts:/><Color:/>
+Xenon_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>C<Fonts:/><Color:/>
+Xenon_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>L<Fonts:/><Color:/>
+Xenon_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_DPadUp=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>m<Fonts:/><Color:/>
+Xenon_DPadRight=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>o<Fonts:/><Color:/>
+Xenon_DPadDown=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>q<Fonts:/><Color:/>
+Xenon_DPadLeft=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>s<Fonts:/><Color:/>
+Xenon_LeftStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>k<Fonts:/><Color:/>
+Xenon_RightStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>i<Fonts:/><Color:/>
+PS3_X=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>X<Fonts:/><Color:/>
+PS3_Circle=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>Y<Fonts:/><Color:/>
+PS3_Square=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>B<Fonts:/><Color:/>
+PS3_Triangle=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>A<Fonts:/><Color:/>
+PS3_L1=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>y<Fonts:/><Color:/>
+PS3_R1=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>z<Fonts:/><Color:/>
+PS3_L2=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>w<Fonts:/><Color:/>
+PS3_R2=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>x<Fonts:/><Color:/>
+PS3_L3=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>j<Fonts:/><Color:/>
+PS3_R3=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>h<Fonts:/><Color:/>
+PS3_Start=[START]
+PS3_Select=[SELECT]
+PS3_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>j<Fonts:/><Color:/>
+PS3_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>h<Fonts:/><Color:/>
+PS3_DPadUp=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>m<Fonts:/><Color:/>
+PS3_DPadRight=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>o<Fonts:/><Color:/>
+PS3_DPadDown=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>q<Fonts:/><Color:/>
+PS3_DPadLeft=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>s<Fonts:/><Color:/>
+PS3_LeftStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>k<Fonts:/><Color:/>
+PS3_RightStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>i<Fonts:/><Color:/>
+
+[GameMappedStrings]
+GMS_MouseX=MouseX
+GMS_MouseY=MouseY
+GMS_MouseScrollUp=MScrollUp
+GMS_MouseScrollDown=MScrollDown
+GMS_LeftMouseButton=Mouse1
+GMS_RightMouseButton=Mouse2
+GMS_MiddleMouseButton=Mouse3
+GMS_ThumbMouseButton=Mouse4
+GMS_BackSpace=Backspace
+GMS_Tab=Tab
+GMS_Enter=Enter
+GMS_Pause=Pause
+GMS_CapsLock=Caps Lock
+GMS_Escape=Escape
+GMS_SpaceBar=Spacebar
+GMS_PageUp=Page Up
+GMS_PageDown=Page Down
+GMS_End=End
+GMS_Home=Home
+GMS_Left=Left
+GMS_Up=Up
+GMS_Right=Right
+GMS_Down=Down
+GMS_Insert=Insert
+GMS_Delete=Delete
+GMS_Zero=0
+GMS_One=1
+GMS_Two=2
+GMS_Three=3
+GMS_Four=4
+GMS_Five=5
+GMS_Six=6
+GMS_Seven=7
+GMS_Eight=8
+GMS_Nine=9
+GMS_A=A
+GMS_B=B
+GMS_C=C
+GMS_D=D
+GMS_E=E
+GMS_F=F
+GMS_G=G
+GMS_H=H
+GMS_I=I
+GMS_J=J
+GMS_K=K
+GMS_L=L
+GMS_M=M
+GMS_N=N
+GMS_O=O
+GMS_P=P
+GMS_Q=Q
+GMS_R=R
+GMS_S=S
+GMS_T=T
+GMS_U=U
+GMS_V=V
+GMS_W=W
+GMS_X=X
+GMS_Y=Y
+GMS_Z=Z
+GMS_NumPadZero=Numpad 0
+GMS_NumPadOne=Numpad 1
+GMS_NumPadTwo=Numpad 2
+GMS_NumPadThree=Numpad 3
+GMS_NumPadFour=Numpad 4
+GMS_NumPadFive=Numpad 5
+GMS_NumPadSix=Numpad 6
+GMS_NumPadSeven=Numpad 7
+GMS_NumPadEight=Numpad 8
+GMS_NumPadNine=Numpad 9
+GMS_Multiply=*
+GMS_Add=+
+GMS_Subtract=-
+GMS_Minus=-
+GMS_Plus=+
+GMS_Decimal=.
+GMS_Divide=/
+GMS_F1=F1
+GMS_F2=F2
+GMS_F3=F3
+GMS_F4=F4
+GMS_F5=F5
+GMS_F6=F6
+GMS_F7=F7
+GMS_F8=F8
+GMS_F9=F9
+GMS_F10=F10
+GMS_F11=F11
+GMS_F12=F12
+GMS_NumLock=NumLock
+GMS_ScrollLock=ScrollLock
+GMS_LeftShift=Left Shift
+GMS_RightShift=Right Shift
+GMS_LeftControl=Left Control
+GMS_RightControl=Right Control
+GMS_LeftAlt=Left Alt
+GMS_RightAlt=Right Alt
+GMS_Semicolon=;
+GMS_Equals==
+GMS_Comma=,
+GMS_Underscore=_
+GMS_Period=.
+GMS_Slash=/
+GMS_Tilde=~
+GMS_LeftBracket=[
+GMS_Backslash=\\
+GMS_RightBracket=]
+GMS_Quote=\"
+GMS_XBoxTypeS_A=Joy Button 1
+GMS_XBoxTypeS_B=Joy Button 2
+GMS_XBoxTypeS_X=Joy Button 3
+GMS_XBoxTypeS_Y=Joy Button 4
+GMS_XBoxTypeS_Start=Joy Start
+GMS_XBoxTypeS_Back=Joy Back
+GMS_XBoxTypeS_LeftShoulder=Joy L. Shoulder
+GMS_XBoxTypeS_RightShoulder=Joy R. Shoulder
+GMS_XBoxTypeS_LeftTrigger=Joy L. Trigger
+GMS_XBoxTypeS_RightTrigger=Joy R. Trigger
+GMS_XBoxTypeS_DPad_Up=Joy DPad Up
+GMS_XBoxTypeS_DPad_Down=Joy DPad Down
+GMS_XBoxTypeS_DPad_Left=Joy DPad Left
+GMS_XBoxTypeS_DPad_Right=Joy DPad Right
+GMS_XBoxTypeS_LeftThumbstick=Joy L. Stick
+GMS_XBoxTypeS_RightThumbstick=Joy R. Stick
+GMS_XboxTypeS_LeftX=Joy L. Stick
+GMS_XboxTypeS_LeftY=Joy L. Stick
+GMS_XboxTypeS_RightX=Joy R. Stick
+GMS_XboxTypeS_RightY=Joy R. Stick
+
+[UDKUIDataProvider_SearchResult]
+PlayerRatio=Players
+GameModeFriendlyName=Game
+ServerFlags=Flags
+
+[UTUIDataProvider_SearchResult]
+PlayerRatio=Players
+GameModeFriendlyName=Game
+ServerFlags=Flags
+
+[ServerBrowser]
+ServerName=Server
+Ping=Ping
+MapName=Map
+GameMode=Game Mode
+Key=Key
+Value=Value
+CurrentServerMutators=Mutators

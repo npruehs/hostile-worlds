@@ -1,0 +1,476 @@
+[HWGame]
+GameName=Hostile Worlds
+WelcomeMessage=Welcome to Hostile Worlds,
+GameHints[0]=Don't stockpile the resources you receive by killing aliens! Leveling up your squad members or using commander abilities allows you to kill aliens faster or even to beat your opponents; not spending your resources does not give you any advantage.
+GameHints[1]=Avoid hanging around: Just do anything useful all time, like killing aliens, moving to the next artifact or healing your squad members!
+GameHints[2]=Learn your hotkeys! By using hotkeys for activating special abilities, you'll be able to save much time to spend on other aspects of the game.
+GameHints[3]=Gaining more and more game experience, you'll learn when to stay and when to run away. If you know you are inferior, don't be silly and stand your ground, run away!
+GameHints[4]=Use high ground and hostile terrain for your advantage whenever possible!
+GameHints[5]=Try to focus an enemy squad member with your attacks and special abilities! Reducing the total number of enemy squad members drastically reduces their firepower.
+GameHints[6]=If your enemy is focusing one of your squad members, send him back - this will make your enemy's squad members follow him, wasting much of his or her firepower.
+GameHints[7]=Whenever your enemy throws in a grenade or an air strike, move away! The less damage you take the better.
+GameHints[8]=Learn when to collect an artifact, when to kill aliens to gain more shards, and when to attack your enemy! Never attack your enemy if your squad members' level is lower; try to kill aliens instead to reduce your disadvantage.
+GameHints[9]=Most abilities are very strong if you cannot counter them; retreat and unlearn your abilities instead of losing the match!
+GameHints[10]=Information is key! Try to conquer watch towers whenever possible.
+ErrorGameAlreadyRunning=The game you're trying to join is already running.
+
+[HWMapInfoActor]
+MapSizeSmall=Small
+MapSizeMedium=Medium
+MapSizeLarge=Large
+MapSizeUnknown=Unknown
+
+[HWSelectable]
+MenuName=(Unknown Game Object)
+
+[HWSM_Commander]
+MenuName=Commander
+
+[HWSM_Rusher]
+MenuName=Rusher
+Description=Rushers are front-line squad members. They have strong shields, but their attacks have very limited range. Rushers are good tanks and average damage dealers.
+
+[HWSM_Engineer]
+MenuName=Engineer
+Description=Engineers support the squad at mid-range. Their attacks do small damage; their main task lies in using their different abilities.
+
+[HWSM_Hunter]
+MenuName=Hunter
+Description=Hunters form the back-line of the squad. They can't take much damage, but their attacks do much damage at long range. Hunters are often used as scouts or snipers due to their abilities.
+
+[HWAlien_Weak]
+MenuName=Weak Alien
+
+[HWRe_Artillery]
+MenuName=Artillery
+
+[HWRe_ScoutDrone]
+MenuName=ScoutDrone
+
+[HWArtifact]
+MenuName=Artifact
+DescriptionLineOne=Collect this artifact for gaining victory points!
+
+[HWTower]
+MenuName=Tower
+DescriptionLineOne=Capture this tower to extend your vision!
+
+[HWAlienCamp]
+MenuName=Alien Camp
+DescriptionLineOne=Wicked aliens are wandering around this camp...
+
+[HWAbility]
+ErrorAbilityNotReadyYet=That ability is not ready yet.
+ErrorCantDoThatWhileSnared=Can't do that while snared.
+ErrorCantDoThatWhileSilenced=Can't do that while silenced.
+
+[HWAbilityTargetingUnit]
+ErrorMustTargetAnEnemyUnit=Target must be an enemy unit.
+ErrorMustTargetAnAlliedUnit=Target must be an allied unit.
+ErrorTargetNeedsToBeASquadMember=Target needs to be a squad member.
+
+[HWAb_AcquireArtifact]
+AbilityName=Acquire Artifact
+Description=Collects an alien artifact to score points after %1 seconds. The number of points scored depends on the number of artifacts spawned this round.
+ErrorTargetNeedsToBeAnArtifact=Target needs to be an artifact.
+ErrorArtifactNotAvailable=That artifact is not available this round.
+
+[HWAb_Repair]
+AbilityName=Repair
+Description=Repairs target friendly squad member, restoring %1 structure points per second.
+ErrorSquadMemberNotDamaged=That squad member is not damaged.
+
+[HWAb_Cloak]
+AbilityName=Cloak
+Description=Immediately cloaks all units in a small area of effect for %1 seconds, increasing their movement speed by %2 %. Cloaked units cannot be attacked or targeted, but are unable to attack or use abilities, too. They still take damage from area of effect abilities, but damage taken does not break cloaking. The units are silenced for %3 seconds after having decloaked.
+
+[HWAb_Charge]
+AbilityName=Charge
+Description=Charges target enemy unit, increasing movement speed by %1 %, becoming immune to knockback effects and knocking back the target on hit.
+
+[HWAb_ConcussionGrenade]
+AbilityName=Concussion Grenade
+Description=Throws a concussion grenade which explodes %1 seconds after impact, dealing %2 damage to all units within a fixed radius.
+
+[HWAb_TargetEngines]
+AbilityName=Target Engines
+Description=Snares target enemy unit, rendering it unable to move or charge for %1 seconds.
+
+[HWAb_Recharge]
+AbilityName=Recharge
+Description=Recharges the shields of target friendly squad member, restoring %1 shield points per second.
+ErrorSquadMemberShieldsFull=That squad member's shields are full.
+
+[HWAb_CallArtillery]
+AbilityName=Call Artillery
+Description=Calls down an artillery which fires %1 shots before it is sent back. The artillery shots deal area of effect damage and knock all targets back.
+ErrorArtilleryCantLandHere=Artillery can't land here.
+
+[HWAb_CallScoutDrone]
+AbilityName=Call Scoutdrone
+Description=Constructs and starts a scout drone which has fuel for %1 seconds.
+ErrorScoutDroneCantLandHere=Scoutdrone can't land here.
+
+[HWAb_AimedShot]
+AbilityName=Aimed Shot
+Description=Ranged attack, dealing %1 damage and knocking back the target.
+
+[HWAb_EMPGrenade]
+AbilityName=EMP Grenade
+Description=Throws an EMP grenade which blinds enemy units in the target area for %1 seconds. Cancels all abilities currently channelled by these units.
+
+[HWAb_EMPMine]
+AbilityName=EMP Mine
+Description=Throws an EMP mine which lies on the ground and explodes if touched by an enemy, dealing %1 damage. Enemies in the blast radius are blinded for %2 seconds. Cancels all abilities currently channelled by these units.
+
+[HWAb_ExposeWeakness]
+AbilityName=Expose Weakness
+Description=Points with a laser at target enemy unit, reducing its armor by %1 %.
+
+[HWAb_FocusFire]
+AbilityName=Focus Fire
+Description=A shout that increases weapon damage of all nearby friendly squad members by %1 % for %2 seconds.
+
+[HWAb_AirStrike]
+AbilityName=Air Strike
+Description=Calls in an air strike, throwing %1 grenades down to a large area of effect which deal %2 damage each.
+
+[HWAb_Scan]
+AbilityName=Scan
+ErrorScannerCantLandHere=Scan can't be placed here.
+Description=Connects to an orbiting satellite, revealing target area for %1 seconds.
+
+[HWPlayerController]
+ErrorAbilityNotLearnedYet=You have not learned that ability yet.
+ErrorNotEnoughShards=Not enough shards:
+ErrorMaximumLevel=Level cap reached.
+MessageChooseTargetUnit=Choose a target unit for ability:
+MessageChooseTargetLocation=Choose a target location for ability:
+MessagePlayerWins=You win the game!
+MessagePlayerLooses=You have lost the game!
+MessageViewScores=Press left mouse button to view the score screen!
+MessageChooseTargetLocationForCommanderRespawn=Choose a location for respawning your commander!
+ErrorCantSpawnCommanderHere=Commander can't spawn here.
+ErrorCantSpawnCommanderNextToArtifacts=Commander mustn't spawn next to an artifact.
+ErrorMustSpawnAtASpawnPoint=Commander has to spawn at a spawn point!
+MessageChooseTargetLocationForMove=Choose a target location for the Move order!
+MessageChooseTargetLocationForAttack=Choose a target for the Attack order!
+ErrorTargetMustBeAUnit=Target must be a unit.
+ErrorTooManySquadMembers=You already control too many squad members.
+ErrorCannotDismissCommander=You can't dismiss your commander.
+ErrorCommanderDead=Your commander is dead!
+ErrorHarvesterRequired=Only squad members with the ability 'Acquire Artifact' may harvest artifacts.
+ErrorCantDoThatWhileBlinded=Can't do that while blinded.
+ErrorCantCallSquadMembersInCombat=Can't call squad members while in combat!
+
+[HWHud]
+MessageCommanderDead=Your commander has died.
+MessageCommanderDeadTimeRemaining=You may resurrect him in %1 seconds.
+MessageCommanderDeadResurrect=Press U to resurrect him!
+
+[HWAIController]
+ErrorCannotMoveThere=Cannot move there.
+
+[HWBu_DamageArea]
+BuffName=Damage Area
+Description=This unit is periodically dealt damage by the terrain.
+
+[HWBu_SlowArea]
+BuffName=Slow Area
+Description=This unit is slowed down by %1 % by the terrain.
+
+[HWBu_Charge]
+BuffName=Charge
+Description=This unit is charging. It is immune to knockback effects and has its movement speed increased by %1 %.
+
+[HWBu_Recharge]
+BuffName=Recharge
+Description=This unit is having its shields recharged. It restores %1 shield points per second.
+
+[HWBu_TargetEngines]
+BuffName=Target Engines
+Description=This unit is snared. It is unable to move or charge.
+
+[HWBu_Repair]
+BuffName=Repair
+Description=This unit is being repaired. It restores %1 structure points per second.
+
+[HWBu_Cloak]
+BuffName=Cloak
+Description=This unit is cloaked. It is invisible and has its movement speed increased by %1 %. It can't attack and use abilities for the duration of this buff.
+
+[HWBu_Silence]
+BuffName=Silence
+Description=This unit is silenced and can't use abilities.
+
+[HWBu_Blind]
+BuffName=Blind
+Description=This unit is blinded and can't attack.
+
+[HWBu_ExposeWeakness]
+BuffName=Expose Weakness
+Description=This units' armor is reduced by %1 %.
+
+[HWBu_FocusFire]
+BuffName=Focus Fire
+Description=This units' attack damage is increased by %1 %.
+
+[HWGFxFrontEnd]
+DialogConnecting=Connecting...
+DialogTryingToConnectTo=Trying to connect to
+DialogCancel=Cancel
+
+[HWGFxScreen_MainMenu]
+ViewTitle=Main Menu
+
+BtnTextHostGame=Host Game
+BtnTextJoinGame=Join Game
+BtnTextOptions=Options
+BtnTextCredits=Credits
+BtnTextQuitGame=Quit
+
+DescriptionHostGame=Host a new game.
+DescriptionJoinGame=Join an existing game.
+DescriptionOptions=Personalize your gameplay and input settings, e.g. the scroll speed.
+DescriptionCredits=Learn more about the team behind Hostile Worlds.
+DescriptionQuitGame=Quit Hostile Worlds.
+
+DialogTitleQuitGame=Quit Game
+DialogMessageQuitGame=Do you really wish to quit Hostile Worlds?
+
+[HWGFxScreen_HostGame]
+ViewTitle=Host Game
+
+LabelTextMaps=Maps
+LabelTextPlayerName=Player Name:
+LabelTextScoreLimit=Score Limit:
+LabelTextTimeLimit=Time Limit:
+BtnTextHostGame=Host Game
+BtnTextBackToMainMenu=Back to Main Menu
+
+DescriptionPlayerName=Your nickname. No '?', no '=', no ' ', max. 20 characters.
+DescriptionScoreLimit=The number of victory points required to win.
+DescriptionTimeLimit=The time limit of the game, in minutes.
+DescriptionHostGame=Host a new game with the specified settings.
+DescriptionBackToMainMenu=Return to the main menu.
+
+DialogMessageInvalidMap=Please select a valid map from the map list.
+
+[HWGFxScreen_JoinGame]
+ViewTitle=Join Game
+
+LabelTextPlayerName=Player Name:
+LabelTextHostIP=Host IP:
+
+BtnTextJoinGame=Join Game
+BtnTextBackToMainMenu=Back to Main Menu
+
+DescriptionPlayerName=Your nickname. No '?', no '=', no ' ', max. 20 characters.
+DescriptionHostIP=The public IP address of the server to connect to.
+DescriptionJoinGame=Connect to the specified server.
+DescriptionBackToMainMenu=Return to the main menu.
+
+[HWGFxScreen_PreMatchLobby]
+LabelTextTeam1=Team 1
+LabelTextTeam2=Team 2
+LabelTextSuggestedPlayers=Suggested Players:
+LabelTextMapSize=Map Size:
+LabelTextScoreLimit=Score Limit:
+LabelTextTimeLimit=Time Limit:
+LabelTextTimeLimitMinutes=Minutes
+BtnTextKick=Kick
+BtnTextChangeTeam=Change Team
+BtnTextStartMatch=Start Match
+BtnTextBackToMainMenu=Back to Main Menu
+TextAreaLobbyChatPlayerJoined=has joined the game.
+TextAreaLobbyChatPlayerLeft=has left the game.
+DialogTitleServerShutDown=Session Closed
+DialogTitlePlayerKicked=Kicked!
+DialogMessageServerShutDown=The host has left the game.
+DialogMessagePlayerKicked=The host has removed you from the game.
+
+[HWGFxScreen_Options]
+ViewTitle=Options
+
+LabelTextGraphics=Graphics
+LabelTextGraphicsNote=NOTE: The UDK is unable to fetch your graphics settings as of August 2010 UDK.
+LabelTextGraphicsDisplayedSettings=The settings shown below may not reflect your current graphics settings.
+LabelTextResolution=Resolution:
+LabelTextAnisotropicFiltering=Anisotropic Filtering:
+LabelTextAntiAliasing=Anti-aliasing:
+CheckboxTextFullScreen=Full Screen
+CheckboxTextDynamicLights=Dynamic Lights
+CheckboxTextDynamicShadows=Dynamic Shadows
+CheckboxTextAmbientOcclusion=Ambient Occlusion
+CheckboxTextD3D10=Allow DirectX 10
+
+LabelTextSound=Sound
+LabelTextVolumeMaster=Master Volume
+LabelTextVolumeSFX=Sound FX Volume
+LabelTextVolumeMusic=Music Volume
+LabelTextVolumeVoice=Voice Volume
+
+LabelTextInput=Input
+LabelTextScrollSpeed=Scroll Speed:
+CheckboxTextMouseScrolling=Enable mouse scrolling
+
+LabelTextGameplay=Gameplay
+CheckboxTextShowHealthBars=Always show health bars
+
+BtnTextSaveChanges=Save Changes
+BtnTextDiscardChanges=Discard Changes
+
+DescriptionResolution=The screen resolution and color depth to use.
+DescriptionAnisotropicFiltering=The level of anisotropic filtering to use.
+DescriptionAntiAliasing=The level of anti-aliasing to use.
+DescriptionFullScreen=Whether to display the game in full-screen or windowed mode.
+DescriptionDynamicLights=Whether to use dynamic lights, or not.
+DescriptionDynamicShadows=Whether to render dynamic shadows, or not.
+DescriptionAmbientOcclusion=Whether to use ambient occlusion for local reflection models, or not.
+DescriptionD3D10=Whether to allow Hostile Worlds to use DirectX 10 if available, or not.
+
+DescriptionMouseScrolling=Whether mouse scrolling is enabled or not.
+DescriptionScrollSpeed=The camera's movement speed (in uu/s).
+
+DescriptionShowHealthBars=Whether to always display all health bars, or the user has to press the appropriate hotkey.
+
+DescriptionSaveChanges=Save all changes and return to the main menu.
+DescriptionDiscardChanges=Return to the main menu without saving changes.
+
+DialogTitleAntiAliasingChanged=Changing Anti-aliasing Settings
+DialogMessageAntiAliasingChanged=Note that DirectX 9 doesn't allow games to change the anti-aliasing settings; if you want to enable anti-aliasing with a DirectX 9 graphics device, you have to change the settings in the control panel of your operating system.
+DialogTitleGraphicsSettingsChanged=Changing Graphics Settings
+DialogMessageGraphicsSettingsChanged=If you have changed the graphics settings, some of them may require you to restart Hostile Worlds before they can be applied.
+DialogMessageDiscardChanges=Do you really want to discard all changes and return to the main menu?
+
+[HWGFxScreen_Credits]
+ViewTitle=Credits
+
+BtnTextBackToMainMenu=Back to Main Menu
+
+DescriptionBackToMainMenu=Return to the main menu.
+
+[HWGFxDialog]
+DialogTitleWarning=WARNING
+DialogTitleError=ERROR
+BtnTextYes=Yes
+BtnTextOK=OK
+BtnTextNo=No
+
+[HWGFxScreen_Scores]
+LabelTextOutcomeVictory=VICTORY!
+LabelTextOutcomeDefeat=DEFEAT!
+LabelTextTimePlayed=Time Played
+LabelTextTeam1=Team 1
+LabelTextTeam2=Team 2
+
+ButtonBarTextTabs[0]=Overview
+ButtonBarTextTabs[1]=Units
+ButtonBarTextTabs[2]=Resources
+ButtonBarTextTabs[3]=Combat
+ButtonBarTextTabs[4]=Abilities
+ButtonBarTextTabs[5]=Terrain
+
+ButtonBarTextOverview[0]=Units
+ButtonBarTextOverview[1]=Resources
+ButtonBarTextOverview[2]=Combat
+ButtonBarTextOverview[3]=Abilities
+ButtonBarTextOverview[4]=Total
+
+ButtonBarTextUnits[0]=Aliens Killed
+ButtonBarTextUnits[1]=Squad Members Killed
+ButtonBarTextUnits[2]=Squad Members Lost
+ButtonBarTextUnits[3]=Squad Members Dismissed
+ButtonBarTextUnits[4]=Reinforcements Called
+
+ButtonBarTextResources[0]=Shards Gained
+ButtonBarTextResources[1]=Artifacts Acquired
+ButtonBarTextResources[2]=Total Vision
+ButtonBarTextResources[3]=Actions
+
+ButtonBarTextCombat[0]=Damage Dealt
+ButtonBarTextCombat[1]=Damage Taken
+ButtonBarTextCombat[2]=Damage Healed
+
+ButtonBarTextAbilities[0]=Abilities Triggered
+ButtonBarTextAbilities[1]=Tactical Abilities Triggered
+ButtonBarTextAbilities[2]=Knockbacks Caused
+ButtonBarTextAbilities[3]=Knockbacks Taken
+
+ButtonBarTextTerrain[0]=Time Spent in Damage Areas
+ButtonBarTextTerrain[1]=Time Spent in Slow Areas
+ButtonBarTextTerrain[2]=Towers Captured
+
+BtnTextBackToMainMenu=Back to Main Menu
+
+[HWGameViewportClient]
+ReturningToMainMenu=Returning to Main Menu...
+
+[HWGFxHUD_Abilities]
+TooltipCooldown=Cooldown
+TooltipShards=Shards
+
+TooltipDismiss=Dismiss Squad Member
+TooltipDismissDescription=Dismisses the strongest selected %1, returning %2 shards.
+
+[HWGFxHUD_StatusWindow]
+LabelTextLevel=Level
+LabelTextDamage=Damage:
+LabelTextCooldown=Cooldown:
+LabelTextArmor=Armor:
+LabelTextRange=Range:
+LabelTextBuffs=Buffs:
+LabelTextMore=more
+
+[HWGFxHUD_CommandWindow]
+TooltipCommandMove=Move
+TooltipCommandStop=Stop
+TooltipCommandHoldPosition=Hold Position
+TooltipCommandAttack=Attack
+TooltipFocusCommander=Focus Commander
+TooltipRespawnCommander=Respawn Commander
+TooltipSelectAll=Select All Squad Members
+
+TooltipCommandMoveDescription=Orders all own selected units to move to the specified location. The units will ignore enemies encountered on their way.
+TooltipCommandStopDescription=Orders all own selected units to stop immediately. Idle units will automatically attack enemy units within their acquisition range and chase them over a short distance.
+TooltipCommandHoldPositionDescription=Orders all own selected units to stop immediately. Idle units will automatically attack enemy units within their acquisition range, but won't move away and chase them.
+TooltipCommandAttackDescription=Orders all own selected units to attack the specified enemy target, or to move to the specified location and attack all enemies encountered on the way.
+TooltipFocusCommanderDescription=Selects and moves your camera to your commander.
+TooltipRespawnCommanderDescription=Respawns your commander at the specified location as soon as the respawn timer has elapsed.
+TooltipSelectAllDescription=Selects all of your squad members on the map.
+
+[HWGFxHUD_Submenus]
+LabelTextSurrender=Surrender
+LabelTextChatLog=Chat Log
+
+TooltipSubmenuCallSquadMember=Call Squad Member
+TooltipSubmenuTacticalAbilities=Tactical Abilities
+TooltipSubmenuCallSquadMemberDescription=Calls additional members for your squad, up to a maximum of %1 squad members. If you already control %2 squad members, any additional one costs %3 shards.
+TooltipSubmenuTacticalAbilitiesDescription=Triggers powerful abilities that cost shards, but have deep impact on the game. The number of shards required depends on the triggered ability.
+
+TooltipSurrender=Surrender
+TooltipChatLog=Chat Log
+TooltipSurrenderDescription=Surrenders this Hostile Worlds match.
+TooltipChatLogDescription=Shows all chat messages received in this match.
+
+DialogTitleSurrender=Surrender
+DialogMessageSurrender=Do you really want to leave the battlefield and surrender?
+
+[HWGFxHUD_VictoryPoints]
+LabelTextTeam1=Team 1
+LabelTextTeam2=Team 2
+
+[HWGFxHUD_Minimap]
+TooltipToggleFogOfWar=Toggle Fog of War
+TooltipToggleTerrain=Toggle Terrain
+TooltipToggleUnits=Toggle Units
+TooltipToggleTeamColors=Toggle Team Colors
+
+TooltipToggleFogOfWarDescription=Toggles whether fog-of-war is drawn on the minimap.
+TooltipToggleTerrainDescription=Toggles whether terrain is drawn on the minimap.
+TooltipToggleUnitsDescription=Toggles whether unit positions are drawn on the minimap.
+TooltipToggleTeamColorsDescription=Toggles whether unit positions are drawn with player colors, or own units in green and enemy ones in red instead.
+
+[HWGFxHUD_ChatLog]
+LabelTextTitle=Chat Log
+BtnTextClose=Close

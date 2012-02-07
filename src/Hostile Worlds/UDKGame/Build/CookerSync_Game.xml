@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<GameSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	XGDFileRelativePath="..\..\UTGame\Build\DVD-Layout.xgd" PS3TitleID="BLUS30086">
+
+  <FileGroups>
+
+    <FileGroup Tag="Executable" Platform="PC">
+      <Files>
+        <FileSet Path="Binaries\UDK.exe" />
+        <FileSet Path="Binaries\UDKLift.exe" />
+        <FileSet Path="Binaries\Win32\UDK.exe" />
+        <FileSet Path="Binaries\Win32\UDK.exe.config" />
+        <FileSet Path="Binaries\Win32\UDK.com" />
+        <FileSet Path="Binaries\Win32\UDKGameDLL.dll" />        
+        <FileSet Path="Binaries\Win32\UDKGameDLL.dll.manifest" />    
+      </Files>
+    </FileGroup>
+
+    <FileGroup Tag="Debug" Platform="PC">
+      <Files>
+        <FileSet Path="Binaries\Win32\UDK.pdb" />
+        <FileSet Path="Binaries\Win32\UDKGameDLL.pdb" /> 
+        <FileSet Path="Binaries\UDKLift.pdb" />
+      </Files>
+    </FileGroup>
+
+    <FileGroup Tag="Win64Executable" Platform="PC">
+      <Files>
+        <FileSet Path="Binaries\Win64\UDK.exe" />
+        <FileSet Path="Binaries\Win64\UDK.exe.config" />
+        <FileSet Path="Binaries\Win64\UDK.com" />        
+      </Files>
+    </FileGroup>
+
+    <FileGroup Tag="Win64Debug" Platform="PC">
+      <Files>
+        <FileSet Path="Binaries\Win64\UDK.pdb" />        
+      </Files>
+    </FileGroup>
+
+  </FileGroups>
+
+</GameSettings>

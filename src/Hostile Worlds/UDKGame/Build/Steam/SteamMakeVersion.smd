@@ -1,0 +1,21 @@
+# Open the solution for publishing a UTGame update
+OPENSOL c:\SteamGame\UTGame.sts
+
+# Open the project
+OPEN c:\SteamGame\UTGame.spj
+
+# Create a default new version
+NEWVER
+
+# Set the current version to the latest version
+CURVER
+
+# Sync up the built game with the depot
+SYNCPROJECT
+
+# Build the depot using the new version
+BUILD
+
+# Save the updated project
+SAVE c:\SteamGame\UTGame.spj
+

@@ -1,0 +1,960 @@
+[MessageBox]
+ExitGame_Title=Exit
+ExitGame_Message=Are you sure you want to exit the game?
+LogOut_Title=Logout
+LogOut_Message=Are you sure you want to logout?
+StartGame_Title=Start Match?
+StartGame_Message=Start the match using the current settings?
+StartDedicated_Title=Start Dedicated Server?
+StartDedicated_Message=Start a dedicated server using the current settings?
+FirstTimeCharacter_Title=Create Character
+FirstTimeCharacter_Message=It looks like you have not yet customized your online character.  Would you like to do that now?  If not, a character will be randomly generated for you.
+MustLogoutToLogin_Title=Must Logout
+MustLogoutToLogin_Message=In order to login to a new profile, you must logout of your currently logged-in profile.  Would you like to logout now?
+ProfileCreated_Title=Profile Created
+ProfileCreated_Message=Your profile has been created.  You can now login with the user name specified.
+BindKey_Title=Bind Key
+BindKey_Message=Press the key or button you wish to bind to...\nThe key will be bound to '`Binding`'\n(Shift-Escape Cancels)
+ResetToPreset_Title=Reset to Preset
+ResetToPreset_Message=By returning to preset mode, your customized controls will be lost.  Are you sure you want to do this?
+ResetToDefaults_Title=Reset to Defaults
+ResetToDefaults_Message=By resetting to defaults, your customized settings will be lost.  Are you sure you want to do this?
+FriendRequestSent_Title=Friend Request Sent
+FriendRequestSent_Message=Your friend request was sent to '`PlayerName`'.
+FriendRequestFailed_Title=Error
+FriendRequestFailed_Message=Failed to send a friend request to '`PlayerName`', please try again later.
+RemoveFriend_Title=Remove Friend
+RemoveFriend_Message=Are you sure you want to remove '`PlayerName`' from your friends list?
+SentGameInvite_Title=Sent Game Invite
+SentGameInvite_Message=An invite to play Unreal Tournament 3 has been sent to '`PlayerName`'!
+JoinFriend_Message=Joining...
+ViewMessage_Title=View Message
+ViewMessage_Message=Message From '`PlayerName`':\n\n`Message`
+ViewFriendRequest_Title=Accept Friend Request
+ViewFriendRequest_Message=Friend request from '`PlayerName`':\n\n`Message`
+ViewGameInvite_Title=Accept Game Invite
+ViewGameInvite_Message=Game invite from '`PlayerName`':\n\n`Message`
+DeleteMessage_Title=Delete Message
+DeleteMessage_Message=Delete message from '`PlayerName`'?
+DeleteContent_Title=Delete Content
+DeleteContent_Message=Delete the `ContentName` content package?  This action is not reversable!
+DeleteAllContent_Title=Delete All Content
+DeleteAllContent_Message=Delete all content packages?  This action is not reversable!
+ImportingMod_Message=Importing Mod...
+ModImportFailed_Message=Mod importing or unpacking failed.  Check for sufficient HDD space.
+InstallingFailed_Message=Installing Failed.  Insufficient HDD space.
+UnpackingMod_Message=Unpacking Mod...
+InstallPS3Start_Message=Installing...
+InstallPS3Cancelling_Message=Cancelling Install...
+InstallPS3Progress_Message=Installing... (`CurrentFile` of `TotalFiles`)
+InstallPS3Finished_Title=Install Complete
+InstallPS3Finished_Message=Unreal Tournament 3 has been fully installed.
+KeepResolution_Title=Keep Settings?
+KeepResolution_Message=Your resolution has been changed.  Do you want to keep these new settings?\n(Will automatically revert in `Seconds` second(s))
+DownloadContent_Title=Download Content
+DownloadContent_Message=The game will minimize and a webbrowser will launch to finish your content download.  Would you like to continue?
+SavingProfile=Saving Game. Please do not turn off the PS3™ system.
+EnterUnlockCode_Title=Unlock Character
+EnterUnlockCode_Message=Enter character unlock code:
+EnterServerPassword_Title=Enter Password
+EnterServerPassword_Message=This server requires a password to join.  Please enter the correct password to continue.
+FirstTimeMultiplayer_Title=Setup Settings
+FirstTimeMultiplayer_Message=You must set your player name and internet settings before entering multiplayer.
+StompBindKey_Title=Duplicate Binding
+StompBindKey_Message=This action binds a command to a key that is already bound. Do you want to remove the previous binding?
+CrucialBindErrorMsg=A crucial action is not bound to input.  Please bind the action to continue.
+LoseChangesWarning_Title=Lose unsaved changes
+LoseChangesWarning_Message=You are about to lose unsaved changes.  Would you like to continue?
+
+[Errors]
+Error_Title=Error
+JoinGameFailed_Title=Error
+JoinGameFailed_Message=Unable to join the selected match.  Please try another match.
+QuickMatchFailed_Title=Error
+QuickMatchFailed_Message=Unable to find a suitable match for quick play.  Please try revising your filter settings and try again.
+IncompatibleVersion_Title=Error
+IncompatibleVersion_Message=The match you are trying to join is running an incompatible version of the game.  Please try upgrading your game version.
+UnableToFindMatch_Title=Error
+UnableToFindMatch_Message=Unable to find a match with the filters you described.  Please try changing your filters and searching again.
+LoginRequired_Title=Error
+LoginRequired_Message=This feature requires a currently logged in profile to continue.
+GoldRequired_Title=Error
+GoldRequired_Message=This feature requires a Xbox Live Gold membership to continue.
+OnlineRequired_Title=Error
+OnlineRequired_Message=Online service is disabled on your PLAYSTATION®Network account due to parental control restrictions.  Access to online features will be disabled.
+ContentRequired_Title=Error
+ContentRequired_Message=Custom content is disabled on your PLAYSTATION®Network account due to parental control restrictions.  Access to custom content features will be disabled.
+CommunicationRequired_Title=Error
+CommunicationRequired_Message=Online communication is disabled on your PLAYSTATION®Network account due to parental control restrictions.  Access to communication features will be disabled.
+OnlineRequiredForInternet_Message=Online features require a PLAYSTATION®Network connection.  Access to online features will be disabled.
+LinkDisconnected_Message=No network connection detected.  Please check to make sure you are connected to a network to continue.
+NetworkLinkLost_Message=You no longer have a valid network connection.  Please double-check your network cables and configuration.
+ConnectionLost_Title=Error
+ConnectionLost_Message=Your connection to the server was lost.
+InvalidMessage_Title=Error
+InvalidMessage_Message=The message you have entered is blank.  Please enter a longer message.
+InvalidUserName_Title=Error
+InvalidUserName_Message=The user name you have entered is invalid.  A valid user name and password must be entered to login.
+InvalidUserNameCreateProfile_Message=The user name you have entered is invalid.  User names must be between 3 and 15 characters.
+InvalidUserNameFirstChar_Message=The user name you have entered is invalid.  A user name cannot start with a number, a space, or any of the following characters: #, @, +
+InvalidCDKey_Title=Error
+InvalidCDKey_Message=The CD key you have entered is invalid.  A valid CD Key is required to continue.  Please check your entry and try again.
+InvalidFriendName_Title=Error
+InvalidFriendName_Message=The friend name you have entered is invalid.  Please double check the spelling of your friend's name.
+InvalidPassword_Title=Error
+InvalidPassword_Message=The password you have entered has an invalid length.  A valid user name and password must be entered to login.
+InvalidPasswordConfirm_Title=Error
+InvalidPasswordConfirm_Message=The password and the password confirmation you have entered do not match.
+InvalidPasswordForEmail_Title=Error
+InvalidPasswordForEmail_Message=The password provided is invalid for the existing account based on the specified email address. If you have forgotten your username or password, please visit http://www.gamespyid.com.
+InvalidEMail_Title=Error
+InvalidEMail_Message=The email address you have entered is invalid.
+NameInUse_Title=Error
+NameInUse_Message=The user name you have provided is already in-use.  Please choose a different user name.
+ServiceUnavailable_Title=Error
+ServiceUnavailable_Message=The online service is currently unavailable.  Please wait and try reconnecting again.
+UpdateRequired_Title=Error
+UpdateRequired_Message=To continue playing online, you must update your software version.
+ServersTooBusy_Title=Error
+ServersTooBusy_Message=The online servers are currently too busy.  Please wait and try reconnecting again.
+DuplicateLogin_Title=Error
+DuplicateLogin_Message=A duplicate login has been detected.  Your connection to the server has been lost.
+InvalidUserLogin_Title=Error
+InvalidUserLogin_Message=The username and password provided are invalid.  Please check the spelling of your username and password.  Passwords are case sensitive. If you have forgotten your username or password, please visit http://www.gamespyid.com.
+LogoutFailed_Title=Error
+LogoutFailed_Message=Logout Failed
+ProfileCreationFailed_Title=Error
+ProfileCreationFailed_Message=Profile creation failed.  The User Name cannot contain any blank spaces or start with a non-alphanumeric character. Please try creating your profile again.
+FailedToSendMessage_Title=Error
+FailedToSendMessage_Message=Failed to send message to '`PlayerName`', please try again later.
+JoinFriendFailed_Title=Error
+JoinFriendFailed_Message=Failed to join your friend's game.  The game may already be full.
+SendInviteFailed_Title=Invite to Game Failed
+SendInviteFailed_Message=Failed to invite '`PlayerName`' to your game.
+CampaignOnlineFailure_Title=Alert
+CampaignOnlineFailure=Internet play has been disabled. Please enable your profile if you wish to play online with others.
+FailedToReadNews=There was an error reading the latest news from the online news server.  Please try again later.
+FailedToReadContent=There was an error reading the latest content from the online content server.  Please try again later.
+EmptyMapCycle_Title=Error
+EmptyMapCycle_Message=You need to add at least one map to your map cycle to begin the match.
+SomeChangesMayNotBeApplied_Title=Warning
+SomeChangesMayNotBeApplied_Message=Some changes may not be applied until the game is restarted.
+NeedSecondController_Title=Error
+NeedSecondController_Message=There needs to be 2 controllers connected before beginning a splitscreen match.
+CannotSendFriendRequestToYourself_Title=Error
+CannotSendFriendRequestToYourself_Message=You are unable to add yourself as a friend.  Please enter another username to send the request to.
+CannotSendMessageToYourself_Title=Error
+CannotSendMessageToYourself_Message=You are unable to send yourself messages.  Please enter another username to send the message to.
+CannotUseKeyboardMouse_Title=Error
+CannotUseKeyboardMouse_Message=Using the keyboard and/or mouse is prohibited on this server.
+CanOnlyConfigureEnabledMutators_Title=Error
+CanOnlyConfigureEnabledMutators_Message=Only enabled mutators can be configured.
+CurrentMutatorCannotBeConfigured_Title=Error
+CurrentMutatorCannotBeConfigured_Message=The currently selected mutator is not configurable.
+InvalidUnlockCode_Title=Error
+InvalidUnlockCode_Message=The unlock code you have entered is incorrect.  Please check your spelling and try again.
+NotAllPlayersCanJoin_Title=Error
+NotAllPlayersCanJoin_Message=Not all local players have permission to join the game invite.
+NotEnoughInviteSpace_Title=Error
+NotEnoughInviteSpace_Message=Not enough space for all local players in the game invite.
+UnableToJoinInvite_Title=Error
+UnableToJoinInvite_Message=Unable to join the game invite.  The game may already be full.
+MinSpecMessage=Your machine is being detected as below the minimum system requirements for the Unreal Development Kit. Please check the Release Notes for suggestions on improving your visual quality.
+
+[ToastMessages]
+ReconnectController=Please reconnect your controller to continue.
+ReceivedMessage=Received a message from another player.
+ReceivedMessageSpecific=Received a message from '`PlayerName`'.
+ReceivedFriendInvite=Received a friend invite from another player.
+ReceivedFriendInviteSpecific=Received a friend invite from '`PlayerName`'.
+ReceivedGameInviteSpecific='`PlayerName`' has invited you to play in a UT3 match.
+CharacterUnlocked=A new character has been unlocked!
+
+[Profiles]
+UserName=User Name:
+UserName_Description=Please enter a unique name between 3 and 15 characters.
+LoginUserName_Description=Please enter your profile name.  If you do not yet have a profile, use the Create Profile button below to create one.
+Password=Password:
+Password_Description=Please enter a password between 1 and 30 characters.
+LoginPassword_Description=Please enter the password for your profile.  Passwords are case-sensitive.
+ConfirmPassword=Confirm Password:
+ConfirmPassword_Description=Please re-enter your password.
+EMailAddress=Email Address:
+EMailAddress_Description=Please enter your email address.  This email will be used if there's a problem with your account.
+EMailAddress_ShortDescription=Please enter your email address.
+CDKey=CD Key:
+CDKey_Description=Enter the CD Key for the game.  The CD Key can be found on the inside of the game's case.
+Message=Message:
+MessageRecipient=Message Recipient
+SavePassword=Save Password
+SavePassword_Description=Toggle whether or not you would like your password saved.
+AutoLogin=Automatically Login
+AutoLogin_Description=Toggle whether or not to automatically login when the game starts.
+LoginLocallyOnly=Offline Mode
+LoginLocallyOnly_Description=Log in your profile in offline mode.
+
+[TitleScreen]
+PressStart=Press [START]
+PressAnyKey=Press Any Key
+Copyright=Copyright 1998-2010 Epic Games, Inc. All Rights Reserved.
+
+[Generic]
+None=None
+Disabled=Disabled
+OK=<StringAliasMap:Accept>OK
+Cancel=<StringAliasMap:Cancel>CANCEL
+Refreshing=Refreshing...
+Loading=Loading...
+Searching=Searching...
+LoggingIn=Logging In...
+LoggingOut=Logging Out...
+CreatingProfile=Creating Profile...
+NotLoggedIn=(Not Signed-In)
+OfflineProfile=(Offline)
+Profile1=Profile 1:
+Profile2=Profile 2:
+Profile=Profile:
+Fire=FIRE
+On=On
+Buy=Buy Now!
+Exit=Exit
+
+
+[ButtonFont]
+Xenon_A=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_B=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>B<Fonts:/><Color:/>
+Xenon_X=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>X<Fonts:/><Color:/>
+Xenon_Y=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>Y<Fonts:/><Color:/>
+Xenon_LeftTrigger=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>w<Fonts:/><Color:/>
+Xenon_RightTrigger=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>x<Fonts:/><Color:/>
+Xenon_LeftBumper=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>y<Fonts:/><Color:/>
+Xenon_RightBumper=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>z<Fonts:/><Color:/>
+Xenon_Start=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>><Fonts:/><Color:/>
+Xenon_Back=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18><<Fonts:/><Color:/>
+Xenon_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>C<Fonts:/><Color:/>
+Xenon_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>L<Fonts:/><Color:/>
+Xenon_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_DPadUp=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>m<Fonts:/><Color:/>
+Xenon_DPadRight=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>o<Fonts:/><Color:/>
+Xenon_DPadDown=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>q<Fonts:/><Color:/>
+Xenon_DPadLeft=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>s<Fonts:/><Color:/>
+Xenon_LeftStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>k<Fonts:/><Color:/>
+Xenon_RightStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>i<Fonts:/><Color:/>
+PS3_X=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>X<Fonts:/><Color:/>
+PS3_Circle=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>Y<Fonts:/><Color:/>
+PS3_Square=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>B<Fonts:/><Color:/>
+PS3_Triangle=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>A<Fonts:/><Color:/>
+PS3_L1=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>y<Fonts:/><Color:/>
+PS3_R1=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>z<Fonts:/><Color:/>
+PS3_L2=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>w<Fonts:/><Color:/>
+PS3_R2=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>x<Fonts:/><Color:/>
+PS3_L3=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>j<Fonts:/><Color:/>
+PS3_R3=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>h<Fonts:/><Color:/>
+PS3_Start=[START]
+PS3_Select=[SELECT]
+PS3_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>j<Fonts:/><Color:/>
+PS3_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>h<Fonts:/><Color:/>
+PS3_DPadUp=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>m<Fonts:/><Color:/>
+PS3_DPadRight=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>o<Fonts:/><Color:/>
+PS3_DPadDown=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>q<Fonts:/><Color:/>
+PS3_DPadLeft=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>s<Fonts:/><Color:/>
+PS3_LeftStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>k<Fonts:/><Color:/>
+PS3_RightStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>i<Fonts:/><Color:/>
+
+[Icons]
+Unreal=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>0<Fonts:/>
+Skull=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>1<Fonts:/>
+People=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>2<Fonts:/>
+True=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>3<Fonts:/>
+False=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>4<Fonts:/>
+Locked=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>5<Fonts:/>
+Keyboard=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>6<Fonts:/>
+
+[Terms]
+Controller_PC=Gamepad
+Controller_PS3=Controller
+Controller_360=Xbox 360 Controller
+GamerCard_360=GAMER CARD
+GamerCard_PS3=PLAYER CARD
+GamerCard_PC=PLAYER CARD
+
+[ButtonCallouts]
+PlayOffline=<StringAliasMap:Cancel>PLAY OFFLINE
+Advanced=<StringAliasMap:Conditional2>ADVANCED
+StartPrivateGame=<StringAliasMap:Accept>START PRIVATE GAME
+StartPublicGame=<StringAliasMap:Conditional2>START PUBLIC GAME
+StartGame=<StringAliasMap:Accept>START MATCH
+ExitGame=<StringAliasMap:Accept>EXIT GAME
+StartDedicated=START DEDICATED
+JoinServer=<StringAliasMap:Accept>JOIN SERVER
+SpectateServer=<StringAliasMap:RightTrigger>SPECTATE
+FindMatch=<StringAliasMap:Accept>FIND MATCH
+Refresh=<StringAliasMap:Conditional2>REFRESH
+QuickStartGame=<StringAliasMap:Start>START GAME
+Accept=<StringAliasMap:Accept>ACCEPT
+CreateProfile=<StringAliasMap:Accept>CREATE PROFILE
+CreateProfileLoginScreen=<StringAliasMap:Conditional1>CREATE PROFILE
+Login=<StringAliasMap:Accept>LOGIN
+LoginMainMenu=<StringAliasMap:Conditional1>LOGIN
+LogOut=<StringAliasMap:Accept>LOGOUT
+LogOutMainMenu=<StringAliasMap:Conditional2>LOGOUT
+Profiles=<StringAliasMap:Conditional2>PLAYER PROFILES
+Details=<StringAliasMap:Accept>DETAILS
+Apply=<StringAliasMap:Accept>APPLY
+Next=<StringAliasMap:Accept>NEXT
+Select=<StringAliasMap:Accept>SELECT
+Search=<StringAliasMap:Accept>SEARCH
+Back=<StringAliasMap:Cancel>BACK
+Cancel=<StringAliasMap:Cancel>CANCEL
+CancelSearch=<StringAliasMap:Cancel>CANCEL SEARCH
+GamerCard=<StringAliasMap:Conditional1><StringAliasMap:Term_GamerCard>
+AcceptMission=<StringAliasMap:Accept>ACCEPT MISSION
+ReplayMission=<StringAliasMap:Accept>REPLAY MISSION
+MissionBrief=<StringAliasMap:Accept>MISSION BRIEFING
+Ready=<StringAliasMap:Accept>READY
+AddMutator=<StringAliasMap:Conditional1>ADD
+RemoveMutator=<StringAliasMap:Conditional1>REMOVE
+ClearMutators=<StringAliasMap:Conditional2>CLEAR
+PlayerAdmin=<StringAliasMap:Accept>ADMIN
+ToggleGameMode=<StringAliasMap:Conditional2>GAME TYPE
+ToggleView=<StringAliasMap:Conditional2>VIEW FILTER
+ToggleMatchType=<StringAliasMap:Conditional1>SERVER TYPE
+ToggleShoulderType=<StringAliasMap:Conditional1>TOGGLE SHOULDER TYPE
+ConfigureControls=<StringAliasMap:Conditional1>CONFIGURE CONTROLS
+ConfigureController=<StringAliasMap:Conditional1>CONFIGURE CONTROLLER
+ConfigureKeys=<StringAliasMap:Conditional2>CONFIGURE KEYS
+ConfigureMutator=<StringAliasMap:Conditional2>CONFIGURE
+WeaponPreference=<StringAliasMap:Conditional1>WEAPON PRIORITY
+ResetToDefaults=<StringAliasMap:Defaults>DEFAULTS
+ResetToDefaultAccept=<StringAliasMap:Accept>RESET TO DEFAULTS
+ShiftUp=<StringAliasMap:ShiftUp>SHIFT UP
+ShiftDown=<StringAliasMap:ShiftDown>SHIFT DOWN
+ShiftUpTrigger=<StringAliasMap:ShiftUpTrigger>SHIFT UP
+ShiftDownTrigger=<StringAliasMap:ShiftDownTrigger>SHIFT DOWN
+ShiftMap=<StringAliasMap:ShiftBothTrigger>SHIFT
+PlayDemo=<StringAliasMap:Accept>PLAY DEMO
+MapCycle=<StringAliasMap:Conditional2>SETUP MAP CYCLE
+SingleMap=<StringAliasMap:Conditional2>SINGLE
+AddMap=<StringAliasMap:Conditional1>ADD
+RemoveMap=<StringAliasMap:Conditional1>REMOVE
+AddBot=<StringAliasMap:Conditional1>ADD
+RemoveBot=<StringAliasMap:Conditional1>REMOVE
+BotSelection=<StringAliasMap:Conditional1>BOTS
+SelectMutators=<StringAliasMap:Conditional2>MUTATORS
+AddFriend=<StringAliasMap:Conditional1>ADD FRIEND
+SendFriendRequest=<StringAliasMap:Accept>SEND FRIEND REQUEST
+SendMessage=<StringAliasMap:Accept>SEND MESSAGE
+PlayerDetails=<StringAliasMap:Accept>DETAILS
+ServerDetails=<StringAliasMap:Conditional1>SERVER DETAILS
+Presets=<StringAliasMap:Conditional1>PRESETS
+Customize=<StringAliasMap:Conditional1>CUSTOMIZE
+ChangeTeam=<StringAliasMap:Conditional2>CHANGE TEAM
+Keyboard=<StringAliasMap:Conditional2>KEYBOARD
+RemoveFriend=<StringAliasMap:Conditional2>REMOVE FRIEND
+RemoveFriendConfirm=<StringAliasMap:Accept>REMOVE FRIEND
+AcceptFriendRequest=<StringAliasMap:Accept>ACCEPT
+DeclineFriendRequest=<StringAliasMap:Conditional2>DECLINE
+AcceptGameInvite=<StringAliasMap:Accept>ACCEPT
+DeclineGameInvite=<StringAliasMap:Conditional2>DECLINE
+ViewMessage=<StringAliasMap:Accept>VIEW MESSAGE
+DeleteMessage=<StringAliasMap:Conditional1>DELETE MESSAGE
+MarkAsUnread=<StringAliasMap:Conditional2>MARK AS UNREAD
+DeleteContent=<StringAliasMap:Conditional1>DELETE CONTENT
+DeleteAllContent=<StringAliasMap:Select>DELETE ALL CONTENT
+DeleteContentAccept=<StringAliasMap:Accept>DELETE CONTENT
+DeleteAllContentAccept=<StringAliasMap:Accept>DELETE ALL CONTENT
+ImportContent=<StringAliasMap:Conditional2>IMPORT CONTENT
+DownloadContent=<StringAliasMap:Conditional2>DOWNLOAD CONTENT
+DownloadContentAccept=<StringAliasMap:Accept>DOWNLOAD CONTENT
+Admin=<StringAliasMap:Conditional2>ADMIN
+CustomizePlayerButtonBar=<StringAliasMap:Conditional1>CUSTOMIZE CHARACTER
+ChooseReplacementWeapon=<StringAliasMap:Accept>CHOOSE REPLACEMENT
+AnyKey=<StringAliasBindings:GBA_Fire> to Continue...
+EnterUnlockCode=<StringAliasMap:Conditional1>ENTER UNLOCK CODE
+Close=<StringAliasMap:Cancel>CLOSE
+CycleTab=<StringAliasMap:ShiftUp><StringAliasMap:ShiftDown> <StringAliasMap:CycleTabs>
+ReenableMods=MODS ARE DISABLED, PRESS <Strings:UTGameUI.ButtonFont.PS3_Start> TO REENABLE.
+
+[KeyboardPrompts]
+LoginScreen_Name_Title=Enter your profile user name
+LoginScreen_Name_Message=Please enter a user name to login with.
+LoginScreen_Password_Title=Enter your profile password
+LoginScreen_Password_Message=Please enter the password associated with your profile.
+FriendRequestMessage_Title=Enter a message
+FriendRequestMessage_Message=Enter a message to send with your friend request.
+FriendRequestName_Title=Enter player name
+FriendRequestName_Message=Enter the name of the player you want to send the friend request to.
+SendMessage_Title=Enter a message
+SendMessage_Message=Enter a message to send to your friend.
+
+[PlayerCard]
+SendFriendRequest=Send Friend Request
+SendFriendRequest_Desc=Send a friend request to this player.
+SendMessage=Send Message
+SendMessage_Desc=Send a message to this player.
+InviteToGame=Invite to game
+InviteToGame_Desc=Invite this player to the current game.
+Follow=Follow Player
+Follow_Desc=Follow this player from match to match.
+DefaultFriendRequestMessage=Hey there!  Would you like to become my friend?
+Caption=Details on...
+Kick=Kick
+Kick_Desc=Remove this player from the game
+KickWarning=You are about to kick remove this player from the game.  Continue?
+Ban=Kick/Ban
+Ban_Desc=Remove this player from the game and stop them from returning.
+BanWarning=You are about to kick remove this player from the game and restrict their access to your server.  Continue?
+AIBot=(AI Controlled)
+
+[Titles]
+TitleScreen=
+MainMenu=[Main Menu]
+Community=[Community]
+Multiplayer=[Multiplayer]
+Settings=[Settings]
+Credits=[Credits]
+DemoPlayback=[Demo Playback]
+LoginScreen=[Login]
+CreateProfile=[Create Profile]
+Friends=[Friends]
+Leaderboards=[Stats]
+PlayerStats=[Player Stats]
+BindKeysPC=[Configure Controls]
+BindKeys360=[Configure Controls]
+BindKeysPS3=[Configure Controls]
+Mutators=[Mutators]
+MapCycle=[Map Cycle]
+BotSelection=[Bot Selection]
+CharacterFaction=[Factions]
+CharacterSelection=[Characters]
+News=[News]
+WeaponPreference=[Weapon Priority]
+QuickMatch=[Quick Match]
+PlayerCard=[Player Card]
+SendFriendRequest=[Send Friend Request]
+SendOnlineMessage=[Send Message]
+CharacterCustomization=[Character Customization]
+CampOptions=OPTIONS
+SettingsVideoAdvanced=[Advanced Video Settings]
+CampNewOrContinue=[Campaign]
+WeaponReplacement=[Configure Mutator]
+ServerDetails=Server Details
+
+[FrontEnd]
+TabCaption_GameMode=GAME MODE
+TabCaption_Map=MAP
+TabCaption_GameSettings=SETTINGS
+TabCaption_ServerSettings=SERVER
+TabCaption_Mutators=MUTATORS
+TabCaption_Lobby=LOBBY
+TabCaption_CharPart[0]=HEAD
+TabCaption_CharPart[1]=HELMET
+TabCaption_CharPart[2]=FACEMASK
+TabCaption_CharPart[3]=GOGGLES
+TabCaption_CharPart[4]=TORSO
+TabCaption_CharPart[5]=SHOULDERS
+TabCaption_CharPart[6]=ARMS
+TabCaption_CharPart[7]=THIGHS
+TabCaption_CharPart[8]=BOOTS
+
+[JoinGame]
+Filter=FILTER
+Servers=SERVERS
+ServerCount=SERVERS RECEIVED: <SceneData:NumServersReceived>
+Rules=RULES
+Players=Players
+Ping=Ping
+
+[Community]
+News=NEWS
+Friends=FRIENDS
+Messages=MESSAGES
+MyContent=MY CONTENT
+EpicContent=EPIC CONTENT
+
+[Settings]
+Player=PLAYER
+Video=VIDEO
+Audio=AUDIO
+Input=INPUT
+Advanced=ADVANCED
+Weapons=WEAPONS
+HUD=HUD
+Game=GAME
+Network=NETWORK
+Credits=CREDITS
+NotBound=(Not Bound)
+PressKeyToBind=(Press Key To Bind)
+AvailableMutators=Available Mutators
+EnabledMutators=Enabled Mutators
+AvailableBots=Available Bots
+ActiveBots=Active Bots
+AvailableMaps=Available Maps
+MapCycle=Map Cycle
+WeaponPriority=Weapon Priority
+
+[Content]
+Description=Description
+Filename=Filename
+Name=Name
+
+[Stats]
+General=GENERAL
+Weapons=WEAPONS
+Vehicles=VEHICLES
+VehicleWeapons=TURRETS
+Rewards=REWARDS
+WeaponName=Weapon Name
+Kills=Kills
+Deaths=Deaths
+Suicides=Suicides
+PlayerName=Player Name
+VehicleKills=Kills
+DrivingTime=Driving Time
+VehicleName=Vehicle
+Statistic=Statistic
+Value=Value
+
+[VehicleWeapons]
+CicadaRocket=Cicada Rocket
+CicadaTurret=Cicada Turret
+DarkWalkerPassGun=Darkwalker Passgun
+DarkWalkerTurret=Darkwalker Turret
+FuryGun=Fury Gun
+GoliathMachineGun=Goliath Machine Gun
+GoliathTurret=Goliath Turret
+HellbenderPrimary=Hellbender Main Gun
+LeviathanExplosion=Leviathan Main Gun
+LeviathanPrimary=Leviathan Main Turret
+LeviathanTurretBeam=Leviathan Beam Turret
+LeviathanTurretRocket=Leviathan Rocket Turret
+LeviathanTurretStinger=Leviathan Stinger Turret
+LeviathanTurretShock=Leviathan Shock Turret
+MantaGun=Manta Gun
+NemesisTurret=Nemesis Turret
+NightshadeGun=Nightshade Beam Gun
+PaladinExplosion=Paladin Explosion
+PaladinGun=Paladin Gun
+RaptorGun=Raptor Gun
+RaptorRocket=Raptor Rockets
+Redeemer=Redeemer
+ScavengerGun=Scavenger Seeker
+ScavengerStabbed=Scavenger Blades
+ScorpionBlade=Scorpion Blades
+ScorpionGlob=Scorpion Turret
+ScorpionSelfDestruct=Scorpion Self-Destruct
+SPMACameraCrush=Hellfire SPMA Camera Crush
+SPMACannon=Hellfire SPMA Cannon
+SPMATurret=Hellfire SPMA Main Turret
+StealthBenderGun=Stealthbender Beam Gun
+TurretPrimary=Rail Turret
+TurretRocket=Rocket Turret
+TurretShock=Shock Turret
+TurretStinger=Stinger Turret
+ViperGun=Viper Gun
+ViperSelfDestruct=Viper Self-Destruct
+
+
+[ServerBrowser]
+ServerName=Server
+Ping=Ping
+MapName=Map
+GameMode=Game Mode
+Key=Key
+Value=Value
+CurrentServerMutators=Mutators
+
+[UTUIDataProvider_SearchResult]
+PlayerRatio=Players
+GameModeFriendlyName=Game
+ServerFlags=Flags
+
+[CharacterCustomization]
+Faction=Faction
+Character=Character
+CreateNewChar_Title=Create New Character
+CreateNewChar_Message=You have already customized your character once before.  Would you like to create a new character or edit the existing one?  If you create a new character, it will replace the existing character.
+CreateNewCharacter=<StringAliasMap:Conditional2>CREATE NEW
+EditExistingCharacter=<StringAliasMap:Accept>EDIT EXISTING
+RandomlyGenerate=<StringAliasMap:Conditional2>RANDOM
+CreateCharacter=<StringAliasMap:Accept>CUSTOMIZE
+RotateCharacter=<StringAliasMap:RightTrigger> <StringAliasMap:LeftTrigger> Rotate Character
+
+[VHud_Scorpion]
+BoostMsg=Boost
+EjectMsg=Eject
+
+[OnslaughtMap]
+SelectionText=<StringAliasMap:Accept>TELEPORT
+
+[MidGameMenu]
+TabCaption_Map=ORDERS
+TabCaption_Settings=SETTINGS
+TabCaption_Game=GAME
+TabCaption_Score=SCORE
+RespawnOptions=Respawn Options:
+SetSpawnLoc=<StringAliasMap:Accept>SPAWN HERE
+ChangePref=<StringAliasMap:Conditional2>CHANGE ORDERS
+ExitMatchWarning=You are about to leave the map.  Are you sure?
+ExitMatchTitle=Exit Match?
+QuitGameWarning=You are about to leave the map.  Are you sure?
+Reconnect=RECONNECT
+LeaveGame=<StringAliasMap:Conditional1>DISCONNECT
+Forfeit=<StringAliasMap:Conditional1>MAIN MENU
+WonMatch=You have won the match!
+LostMatch=You have lost the match!
+IncomingTransmission=INCOMING TRANSMISSION...
+Rules=<StringAliasMap:Defaults>RULES
+MOTD=<StringAliasMap:Defaults>MOTD
+MapVote=Votes
+Players=<StringAliasMap:LeftTrigger>Players
+VoteTimePrefix=Voting ends in
+VoteTimeSuffixA=seconds.
+VoteTimeSuffixB=second!
+ResetToDefaultsWarning=Reset to Defaults will overwrite all of the current settings.  Continue?
+BestVoteNone=Place Your Vote.
+BestVoteA=Leads with
+BestVoteB=Votes.
+PopupOnSpawn=<StringAliasMap:LeftTrigger>Pop up Menu on Death
+TabCaption_Chat=CHAT
+TabCaption_Vote=VOTE
+DetailswithBots=Sorry, but you cannot view details on a bot.
+CantViewDetails=Sorry, but you cannot view the details on that player.
+
+[Scoreboards]
+PlayerName=Player Name
+Kills=Kills
+Deaths=Deaths
+Score=Score
+Frag Limit=Frag Limit:
+Time Remaining=Time Remaining:
+DEATHMATCH=DEATHMATCH
+TeamDeathmatch=TEAM DEATHMATCH
+CaptureTheFlag=CAPTURE THE FLAG
+Onslaught=ONSLAUGHT
+CapsToWin=Captures to Win
+OnsPreGoalScore=Destroy the core
+OnsPostGoalScore=times to Win
+TimeLimit=Time Limit:
+Name=Name
+
+[Hud]
+ConstructingMeshes=Constructing Meshes. Please Wait...
+ObjectivePrefs=Select Your Role:
+
+[DemoPlayback]
+DemoFileName=Demo Filename
+
+[MapVote]
+AddVote=Add Vote
+MapVoteTitle=[Map Vote]
+
+[AnalogStick]
+Normal_LeftStick=Left/Right: Strafe\nUp/Down: Move
+Normal_RightStick=Left/Right: Look\nUp/Down: Look
+SouthPaw_LeftStick=Left/Right: Look\nUp/Down: Look
+SouthPaw_RightStick=Left/Right: Strafe\nUp/Down: Move
+Legacy_LeftStick=Left/Right: Turn\nUp/Down: Move
+Legacy_RightStick=Left/Right: Strafe\nUp/Down: Look
+LegacySouthPaw_LeftStick=Left/Right: Strafe\nUp/Down: Look
+LegacySouthPaw_RightStick=Left/Right: Turn\nUp/Down: Move
+Press=\nPress:
+PressL3=\nL3:
+PressR3=\nR3:
+
+[GameMappedStrings]
+GMS_MouseX=MouseX
+GMS_MouseY=MouseY
+GMS_MouseScrollUp=MScrollUp
+GMS_MouseScrollDown=MScrollDown
+GMS_LeftMouseButton=Mouse1
+GMS_RightMouseButton=Mouse2
+GMS_MiddleMouseButton=Mouse3
+GMS_ThumbMouseButton=Mouse4
+GMS_BackSpace=Backspace
+GMS_Tab=Tab
+GMS_Enter=Enter
+GMS_Pause=Pause
+GMS_CapsLock=Caps Lock
+GMS_Escape=Escape
+GMS_SpaceBar=Spacebar
+GMS_PageUp=Page Up
+GMS_PageDown=Page Down
+GMS_End=End
+GMS_Home=Home
+GMS_Left=Left
+GMS_Up=Up
+GMS_Right=Right
+GMS_Down=Down
+GMS_Insert=Insert
+GMS_Delete=Delete
+GMS_Zero=0
+GMS_One=1
+GMS_Two=2
+GMS_Three=3
+GMS_Four=4
+GMS_Five=5
+GMS_Six=6
+GMS_Seven=7
+GMS_Eight=8
+GMS_Nine=9
+GMS_A=A
+GMS_B=B
+GMS_C=C
+GMS_D=D
+GMS_E=E
+GMS_F=F
+GMS_G=G
+GMS_H=H
+GMS_I=I
+GMS_J=J
+GMS_K=K
+GMS_L=L
+GMS_M=M
+GMS_N=N
+GMS_O=O
+GMS_P=P
+GMS_Q=Q
+GMS_R=R
+GMS_S=S
+GMS_T=T
+GMS_U=U
+GMS_V=V
+GMS_W=W
+GMS_X=X
+GMS_Y=Y
+GMS_Z=Z
+GMS_NumPadZero=Numpad 0
+GMS_NumPadOne=Numpad 1
+GMS_NumPadTwo=Numpad 2
+GMS_NumPadThree=Numpad 3
+GMS_NumPadFour=Numpad 4
+GMS_NumPadFive=Numpad 5
+GMS_NumPadSix=Numpad 6
+GMS_NumPadSeven=Numpad 7
+GMS_NumPadEight=Numpad 8
+GMS_NumPadNine=Numpad 9
+GMS_Multiply=*
+GMS_Add=+
+GMS_Subtract=-
+GMS_Minus=-
+GMS_Plus=+
+GMS_Decimal=.
+GMS_Divide=/
+GMS_F1=F1
+GMS_F2=F2
+GMS_F3=F3
+GMS_F4=F4
+GMS_F5=F5
+GMS_F6=F6
+GMS_F7=F7
+GMS_F8=F8
+GMS_F9=F9
+GMS_F10=F10
+GMS_F11=F11
+GMS_F12=F12
+GMS_NumLock=NumLock
+GMS_ScrollLock=ScrollLock
+GMS_LeftShift=Left Shift
+GMS_RightShift=Right Shift
+GMS_LeftControl=Left Control
+GMS_RightControl=Right Control
+GMS_LeftAlt=Left Alt
+GMS_RightAlt=Right Alt
+GMS_Semicolon=;
+GMS_Equals==
+GMS_Comma=,
+GMS_Underscore=_
+GMS_Period=.
+GMS_Slash=/
+GMS_Tilde=~
+GMS_LeftBracket=[
+GMS_Backslash=\\
+GMS_RightBracket=]
+GMS_Quote=\"
+GMS_XBoxTypeS_A=Joy Button 1
+GMS_XBoxTypeS_B=Joy Button 2
+GMS_XBoxTypeS_X=Joy Button 3
+GMS_XBoxTypeS_Y=Joy Button 4
+GMS_XBoxTypeS_Start=Joy Start
+GMS_XBoxTypeS_Back=Joy Back
+GMS_XBoxTypeS_LeftShoulder=Joy L. Shoulder
+GMS_XBoxTypeS_RightShoulder=Joy R. Shoulder
+GMS_XBoxTypeS_LeftTrigger=Joy L. Trigger
+GMS_XBoxTypeS_RightTrigger=Joy R. Trigger
+GMS_XBoxTypeS_DPad_Up=Joy DPad Up
+GMS_XBoxTypeS_DPad_Down=Joy DPad Down
+GMS_XBoxTypeS_DPad_Left=Joy DPad Left
+GMS_XBoxTypeS_DPad_Right=Joy DPad Right
+GMS_XBoxTypeS_LeftThumbstick=Joy L. Stick
+GMS_XBoxTypeS_RightThumbstick=Joy R. Stick
+GMS_XboxTypeS_LeftX=Joy L. Stick
+GMS_XboxTypeS_LeftY=Joy L. Stick
+GMS_XboxTypeS_RightX=Joy R. Stick
+GMS_XboxTypeS_RightY=Joy R. Stick
+
+[CampaignObjectiveDesc]
+ObjDesc0=<<Edit Me.>>
+
+[FactionData]
+Liandri_FriendlyName=Liandri
+Liandri_Description=Combat modified versions of the Liandri Mining Corporation's world-class security drones.
+
+[FriendlyMapNames]
+Arsenal=Arsenal
+Avalanche=Avalanche
+Avalanchetwofronts=Avalanche Two Fronts
+AxonTreaty=Axon Treaty
+Betrayal=Betrayal
+Biohazard=Biohazard
+Carbonfire=Carbon Fire
+CombatBriefing=Combat Briefing
+Conclusion=Conclusion
+Containment=Containment
+Coret=Coret
+Corruption=Corruption
+Credits=Credits
+Deck=Deck
+Defiance=Defiance
+Deimos=Deimos
+Diesel=Diesel
+Downtown=Downtown
+Downtowntwofronts=Downtown Two Fronts
+Dusk=Dusk
+Duskfreemine=Dusk Free Mine
+Fearless=Fearless
+Floodgate=Floodgate
+Gateway=Gateway
+Heatray=Heat Ray
+Hydrosis=Hydrosis
+Infection=Infection
+Intercession=Intercession
+Islander=Islander
+Islandernecris=Islander Necris
+Kargo=Kargo
+Marketdistrict=Market District
+Necropolis=Necropolis
+NewGame=Unknown
+OmicronDawn=Omicron Dawn
+Onyxcoast=Onyx Coast
+Powersurge=Power Surge
+Reflection=Reflection
+Risingsun=Rising Sun
+Sanctuary=Sanctuary
+Sandstorm=Sandstorm
+Sentinel=Sentinel
+Serenity=Serenity
+Serenitynecris=Serenity Necris
+Shangrila=Shangri La
+Sinkhole=Sinkhole
+Strident=Strident
+Suspense=Suspense
+Tankcrossing=Tank Crossing
+TheDecks=The Decks
+Torlan=Torlan
+TorlanDelta=Torlan Delta
+Torlanclassic=Torlan Classic
+Torlandelta=Torlan Delta
+Torlandoubleprime=Torlan Double Prime
+Torlannecris=Torlan Necris
+Torlanshort=Torlan Short
+Tutorial=Tutorial
+Vertebrae=Vertebrae
+
+[MapLocationDescription]
+Arsenal=Hyperion fringe territories
+Avalanche=The Onyx Coast
+Avalanchetwofronts=The Onyx Coast
+AxonTreaty=Izanagi HQ, Tokaido
+Betrayal=Omicron 6, beneath Absalom
+Biohazard=The Onyx Coast
+Carbonfire=Hyperion strata
+CombatBriefing=Izanagi HQ, Tokaido
+Conclusion=Omicron 6, Absalom
+Containment=Hyperion fringe territories
+Coret=Hyperion Strata, Coret Acquisition Center
+Corruption=Tokaido
+Credits=Epic Games
+Deck=Hyperion fringe territories
+Defiance=Downtown Oxida Nova
+Deimos=In orbit above Taryd
+Diesel=Downtown Oxida Nova
+Downtown=Downtown Oxida Nova
+Downtowntwofronts=Downtown Oxida Nova
+Dusk=Hyperion fringe territories
+Duskfreemine=Hyperion fringe territories
+Fearless=Omicron 6, downtown Absalom
+Floodgate=Omicron 6, beneath Absalom
+Gateway=Taryd, various locations.
+Heatray=Hyperion slums
+Hydrosis=Alluvion river valley
+Infection=Taryd
+Intercession=In orbit above Taryd
+Islander=Hyperion archipelago
+Islandernecris=Hyperion archipelago
+Kargo=Alluvion river valley
+Marketdistrict=Downtown Tokaido, Kimpu Market District
+Necropolis=Omicron 6, downtown Absalom
+OmicronDawn=In orbit above Omicron 6
+Onyxcoast=The Onyx Coast
+Powersurge=Hyperion fringe territories, Tarydium mine
+Reflection=Tokaido border territories
+Risingsun=Tokaido, Ghost Legion training grounds.
+Sanctuary=Omicron 6, Isle of Babel
+Sandstorm=Omicron 6, Acidus desert
+Sentinel=Omicron 6, Absalom
+Serenity=Alluvion river valley
+Serenitynecris=Alluvion river valley
+Shangrila=Tokaido, Shangri La sector
+Sinkhole=Downtown Tokaido, beneath Kimpu Market District
+Strident=The Strident, beneath Hyperion
+Suspense=Oxida Nova border territories
+Taryd=Taryd
+Tankcrossing=Tokaido border territories
+TheDecks=Oxida Nova, The Decks
+Torlan=Torlan river delta
+TorlanDelta=Torlan river delta
+Torlanclassic=Torlan river delta
+Torlandelta=Torlan river delta
+Torlandoubleprime=Torlan river delta
+Torlannecris=Torlan river delta
+Torlanshort=Torlan river delta
+Tutorial=Downtown Tokaido, Kimpu Market District
+Vertebrae=Omicron 6, beneath Absalom
+
+[LoadingHints_UTDeathmatch]
+Hint_0=Every weapon has at least two firing modes.  Some have even more that can be used by combining the primary and alternate fire mode in different ways.
+Hint_1=To get an extra height boost, press jump again at the peak of a jump.
+Hint_2=You can dodge off walls while in the air.
+Hint_3=The Shock Combo is a powerful explosion created by shooting a shock core with a shock beam.
+Hint_4=There are two ways to use the Rocket Launcher's alt-fire: while loading rockets into the launcher, press the Primary Fire button once to fire them in a tight spiral, or twice to launch them as grenades.
+Hint_5=You can toggle the scoreboard display at any time by pressing the Show Scores button.
+Hint_6=You can shoot down enemy Redeemer missiles with a well-placed shot.
+Hint_7=The UDamage powerup will greatly increase the damage done by all your shots for a limited time.
+Hint_8=The Berserk power-up doubles the rate of fire of all your weapons for a limited amount of time.
+Hint_9=The Shield Belt will fully absorb up to 100 points of damage.
+Hint_10=The Helmet will protect you from 20 points of additional damage, or a single headshot, whichever comes first.
+Hint_11=You can use the Impact Hammer's alt-fire EMP to knock a power-up off an enemy player.
+Hint_12=The Stinger's alternate fire is slow but lethal, and can be used to pin enemies to walls.
+Hint_13=You can feign death to confuse your enemies.
+Hint_14=Practice good sportsmanship.  You were a n00b once, too.
+Hint_Count=15
+
+[LoadingHints_UTVehicleCTFGame]
+Hint_0=The Hoverboard is the only vehicle that you can carry a flag in.
+Hint_1=You can use the Hoverboard's Grapple to tow behind passing friendly vehicles.
+Hint_2=For a boost of speed, look for the glowing arrows that indicate a Hoverboard boost zone.
+Hint_3=You can heal a friendly vehicle with the Link Gun alt-fire.
+Hint_4=If you take any damage while riding the Hoverboard, you will fall to the ground and drop the flag if you were carrying it.
+Hint_Count=5
+
+[LoadingHints_UTCTFGame]
+Hint_0=Use your Translocator to teleport across the battlefield, and gain ground on enemy flag carriers.
+Hint_1=Using the Translocator to teleport while carrying the flag will cause you to drop the flag.
+Hint_2=Toggle your Translocator key to quickly switch between the Translocator and your previous weapon.
+Hint_Count=3
+
+[LoadingHints_UTTeamGame]
+Hint_0=Use the Link Gun to link with other Link Gun-carrying teammates. The head of a linked chain will receive a significant power boost to their Link Gun.
+Hint_Count=1

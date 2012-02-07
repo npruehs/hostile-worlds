@@ -1,0 +1,15 @@
+12812 0 0 ..\Engine\Localization\JPN\Core.jpn c39603f330656fb02cc01531c0bd3ab6
+14864 0 0 ..\Engine\Localization\JPN\Descriptions.jpn 8c2696ebeda84fd75d5f505a0ed455a2
+11770 0 0 ..\Engine\Localization\JPN\EditorTips.jpn a086595a9d545c75aca16909866a9899
+22970 0 0 ..\Engine\Localization\JPN\Engine.jpn ff9f5ea54a0d43ff44809420cfb53922
+126 0 0 ..\Engine\Localization\JPN\gfxui.JPN 19f9bf1528bf94a23f85fd7731dd04bd
+1484 0 0 ..\Engine\Localization\JPN\gfxuieditor.JPN 1d3142fc9ba681104511bb9799cdb657
+126 0 0 ..\Engine\Localization\JPN\IpDrv.jpn f7fbdae3dbf1bfba3a22e6b3b3aa5f17
+1436 0 0 ..\Engine\Localization\JPN\Launch.jpn 8f7795300e639ce069400060067dd27a
+254 0 0 ..\Engine\Localization\JPN\onlinesubsystemgamespy.JPN 3fc6ca581afb72e9dea93cf03d6f4f31
+2378 0 0 ..\Engine\Localization\JPN\Startup.jpn cbbdcf5c71b40848339c69eabb75ef4e
+76 0 0 ..\Engine\Localization\JPN\subtitles.JPN 1b8879d5bc1d2287cede45145984d148
+438872 0 0 ..\Engine\Localization\JPN\UnrealEd.jpn dd82c62f4c252e9b1d6d7064e2791e7d
+752 0 0 ..\Engine\Localization\JPN\WinDrv.jpn 24df24d22364e2522f9f457e28eb1b22
+176 0 0 ..\Engine\Localization\JPN\XWindow.jpn c14f74c9a59997737c03ee4a601fd8d8
+0 0 0 ..\UDKGame\PCTOC_JPN.txt 0
