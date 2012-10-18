@@ -1,47 +1,26 @@
 Hostile Worlds
 --------------
-http://hostile-worlds.com/
+http://www.indiedb.com/games/hostile-worlds/
 
 This file is part of Hostile Worlds by 2nd Reality Studios.
 
 All content is subject to the UNREAL ENGINE 3 UDK LICENSE TERMS listed below.
 
-You are not allowed to extract, copy and/or re-distribute any sound, music or
-speech assets of Hostile Worlds, that is all assets contained by the original
-UDKGame\Content\HostileWorlds\Sounds folder of Hostile Worlds, in any way.
+Due to severe issues with cloning this repository, it now contains the
+source code files of Hostile Worlds, only.
+If you're interested in the whole project, including all graphical assets,
+maps, sounds and videos, please refer to the Skydrive of Nick Pruehs at
+
+https://skydrive.live.com/redir?resid=614466D76208072C!158
 
 In case of any questions, feel free to send an email to hw@npruehs.de.
 
 
 Contents
 --------
-doc/Hostile Worlds - Design Document.pdf:
-	Updated game design document of Hostile Worlds.
-	
-doc/Hostile Worlds - Developing a Multiplayer RTS with the Unreal Engine 3.pdf:
-	Talk on the challenges of developing an RTS with Unreal, held by the
-	programmers of the Hostile Worlds team.
-	
-doc/Hostile Worlds - Handout.pdf:
-	Cheat sheet with all information on the game and its team at a glance.
-
-doc/Hostile Worlds - Manual.pdf:
-	Official game manual.
-	
 src/Hostile Worlds:
-	All UnrealScript source files, Flash files, configuration and localization
-	files and assets of Hostile Worlds. Note that these files are subject to
-	the license terms listed below.
-	
-	Hostile Worlds is based on August 2010 UDK which can be downloaded from
-	
-	http://download.udk.com/UDKInstall-2010-08-BETA.exe
-	
-	Just install the UDK to a location of your choice and replace the
-	Development and UDKGame folders by the ones found in this release.
-	
-	Note that the first game or editor start, as well as the first time the map
-	is loaded, can take a while as the UDK has to compile all shaders first.
+	All UnrealScript source files, configuration and localization files.
+	Note that these files are subject to the license terms listed below.
 	
 src/HWBalanceAnalyzer:
 	Source code of the tool created by our team for parsing Hostile Worlds log
