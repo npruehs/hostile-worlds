@@ -15,7 +15,7 @@ https://skydrive.live.com/redir?resid=614466D76208072C!158
 
 In case of any questions, feel free to send an email to hw@npruehs.de.
 
-- Release Build: https://onedrive.live.com/?id=614466D76208072C%21159&cid=614466D76208072C
+- Release Build: https://skydrive.live.com/redir?resid=614466D76208072C!163
 - Manual: https://onedrive.live.com/?cid=614466D76208072C&id=614466D76208072C%21169&parId=614466D76208072C%21168&o=OneUp
 - Game Design Document: https://onedrive.live.com/?cid=614466D76208072C&id=614466D76208072C%21170&parId=614466D76208072C%21168&o=OneUp
 - Presentation: https://www.slideshare.net/npruehs/developing-a-multiplayer-rts-with-the-unreal-engine-3
